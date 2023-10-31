@@ -8,9 +8,9 @@ import java.io.File;
 
 public class Board
 {
-  private String solvedPhrase;
-  private String phrase;
-  private int currentLetterValue; 
+  private String solvedPhrase; // attribute of class Board, stores solved phrases
+  private String phrase; // attribute of class Board, stores current phrase
+  private int currentLetterValue; // attribute of class Board, stores current Letter Value
 
   /* your code here - constructor(s) */ 
   public Board() {
