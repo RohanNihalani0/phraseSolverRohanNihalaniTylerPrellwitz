@@ -11,10 +11,10 @@ public class PhraseSolver
 
   /* your code here - constructor(s) */ 
   public PhraseSolver() {
-    Player player1 = new Player();
-    Player player2 = new Player();
-    Board board = new Board();
-    boolean solved = false;
+    Player player1 = new Player(); // calls Player constructor with no parameters, allows player to set their own name
+    Player player2 = new Player(); // calls Player for player 2 with no parameters, allows player to set their own name
+    Board board = new Board(); // initializes board to board class
+    boolean solved = false; // sets solved to false to start the game
   }
   /* your code here - accessor(s) */
   
