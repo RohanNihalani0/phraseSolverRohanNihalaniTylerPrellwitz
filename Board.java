@@ -21,7 +21,17 @@ public class Board
     System.out.println("Phrase: " + phrase); // prints phrase for the user to see
   }
   /* your code here - accessor(s) */
-  
+  public String getPhrase() {
+	return phrase; // returns phrase
+  }
+
+  public String getSolvedPhrase() {
+	return solvedPhrase; // returns solved phrase
+  }
+
+  public int getCurrentLetterVal () {
+	return currentLetterValue; // returns currentLetterVal
+  }
   /* your code here - mutator(s)  */
 
 
