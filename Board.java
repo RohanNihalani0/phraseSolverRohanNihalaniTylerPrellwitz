@@ -14,11 +14,11 @@ public class Board
 
   /* your code here - constructor(s) */ 
   public Board() {
-    solvedPhrase = "";
+    solvedPhrase = ""; // sets solvedPhrase to be empty in constructor
     phrase = "";
-    setLetterValue();
-    phrase = loadPhrase();
-    System.out.println("Phrase: " + phrase);
+    setLetterValue(); // 
+    phrase = loadPhrase(); // loads phrase and sets to phrase
+    System.out.println("Phrase: " + phrase); // prints phrase for the user to see
   }
   /* your code here - accessor(s) */
   
