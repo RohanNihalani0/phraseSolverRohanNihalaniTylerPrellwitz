@@ -8,6 +8,10 @@ import java.util.Scanner;
 public class PhraseSolver
 {
   /* your code here - attributes */
+  private Player player1;
+  private Player player2;
+  private Board board;
+  private boolean solved;
 
   /* your code here - constructor(s) */ 
   public PhraseSolver() {
@@ -17,13 +21,14 @@ public class PhraseSolver
     boolean solved = false; // sets solved to false to start the game
   }
   /* your code here - accessor(s) */
-  public Player getCurrentPlayer(int playerNumber) { // returns player based on input number
-    if(playerNumber == 1) {
-      return player1; // if number is 1, return player 1
-    } else if(playerNumber == 2) {
-      return player2; // if number is 2, return player 2
-    }
+  public Player getPlayer1() { 
+    return player1;
   }
+
+  public Player getPlayer2() {
+    return player2;
+  }
+  
   /* your code here - mutator(s)  */
 
   public void play()
