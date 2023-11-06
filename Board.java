@@ -22,15 +22,15 @@ public class Board
   }
   /* your code here - accessor(s) */
   public String getPhrase() {
-	return phrase; // returns phrase
+	  return phrase; // returns phrase
   }
 
   public String getSolvedPhrase() {
-	return solvedPhrase; // returns solved phrase
+	  return solvedPhrase; // returns solved phrase
   }
 
   public int getCurrentLetterVal () {
-	return currentLetterValue; // returns currentLetterVal
+	  return currentLetterValue; // returns currentLetterVal
   }
   /* your code here - mutator(s)  */
 
@@ -58,20 +58,20 @@ public class Board
     int numOfLines = 0;
     try 
     {
-      Scanner sc = new Scanner(new File("/c/Users/Tyler/Downloads/phraseSolverRohanNihalaniTylerPrellwitz/phrases.txt"));
+      Scanner sc = new Scanner(new File("phrases.txt"));
       while (sc.hasNextLine())
       {
         tempPhrase = sc.nextLine().trim();
         numOfLines++;
       }
-    } catch(Exception e) { System.out.println("Error reading or parsing phrases.txt"); }
+    } catch(Exception e) { System.out.println("Error reading or parsing the first phrases.txt"); }
     
 		int randomInt = (int) ((Math.random() * numOfLines) + 1);
     
     try 
     {
       int count = 0;
-      Scanner sc = new Scanner(new File("/phrases.txt"));
+      Scanner sc = new Scanner(new File("phrases.txt"));
       while (sc.hasNextLine())
       {
         count++;
