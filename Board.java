@@ -18,7 +18,7 @@ public class Board
     phrase = "";
     setLetterValue(); // 
     phrase = loadPhrase(); // loads phrase and sets to phrase
-    System.out.println("Phrase: " + phrase); // prints phrase for the user to see
+    // System.out.println("Phrase: " + phrase); // prints phrase for the user to see
   }
   /* your code here - accessor(s) */
   public String getPhrase() {
